@@ -1,0 +1,564 @@
+
+
+.background-img{
+    background-image: url(https://cuahangtienloi24h.com/wp-content/uploads/2021/09/hai-san-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 638px;
+    position: relative;
+}
+
+.button-on-background{
+    margin-top: 638px;
+    background: url(https://cuahangtienloi24h.com/wp-content/themes/flatsome-child/assets/img/wave-white.svg) no-repeat top left;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 230px;
+    top: -229px;
+    z-index: 10;
+
+}
+.on-bg{
+    width: 1143px;
+    text-align: left;
+    margin: auto;
+    padding: auto;
+    margin-top: 54.5px;
+}
+
+.label-new{
+    background-color: #f9c938;
+    color: #000;
+    padding: 6px 15px;
+    border-radius: 3px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 0px;
+    text-transform: uppercase;
+    line-height: 1.4
+}
+
+.h2 {
+    text-transform: uppercase;
+    color: #292929;
+    font-size: 40px;
+    margin: 0;
+    font-weight: 500;
+    line-height: 66px;
+}
+
+.h4{
+    font-size: 24px;
+    margin: 14.4px 0px;
+    color: #fff;
+}
+
+.h5{
+    font-size: 16px;
+    margin: 16px 0px;
+    color: #fff;
+}
+
+
+.button-bg{
+    border-radius: 99px;
+    background-color: #51aa1b;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    margin: 6.4px 12.8px 6.4px 0px;
+    padding: 4px 15.36px;
+
+}
+
+.button-bg:hover {
+    background-color: #3b8010;
+}
+
+
+.text-inner{  
+    margin-top: -500px;
+    width: 702px;
+    height: 283px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-section-one{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+p{
+    font-size: 16px;
+    margin: 0;
+    font-weight: 400;
+    color: #b7b7b7;
+}
+.arrow-down {
+    font-size: 50px;
+    color: #fff;
+    
+}
+
+.h3{
+    height: 30px;
+    margin-top: 20px;
+}
+
+.span-home{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+hr{
+    margin-top: 10px;
+    color: #51aa1b;
+    height: 1px;
+    
+}
+
+span{
+    text-transform: uppercase;
+    height: 30px;
+    text-align: left;
+    margin: auto;
+    padding: 0px 0px 5.5px;
+  
+
+}
+
+.product {
+    text-align: left;
+    width: 1143px;
+    
+    margin: auto;
+    padding: auto;
+    
+}
+
+.product-seafood{
+    display: grid;
+    gap: 50px 100px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+
+.seafood:hover{
+    border: 1px solid red;
+}
+.name-product{
+    color: #333;
+    display: block;
+    margin: 0;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.price-product{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #51aa1b;
+}
+
+.add-cart{
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 10px 15px;
+    color: #fff;
+    display: inline-block;
+    background: #51aa1b;
+    border-radius: 4px;
+    z-index: 1;
+    border: 1px solid #51aa1b;
+    margin-left: 32px;
+    
+    
+}
+
+.add-cart:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    width: 0;
+    height: 100%;   
+    background-color: #fff;
+    transition: 0.5s;
+    z-index: -1;
+    border-radius: 4px;
+
+}
+
+.add-cart:hover:before{
+    width: 100%;
+    left: 0;
+    right: auto;
+  
+}
+
+.add-cart:hover{
+    color: #51aa1b;
+  
+    
+}
+
+.sp{
+    width: 267px;
+    height: 269px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom : 1px solid #51aa1b;
+}
+
+
+.add{
+    width: 10px;
+}
+
+.up-product{
+    border: 1px solid #51aa1b;
+    width: 70px;
+    border-radius: 6px;
+    text-align: center;
+    margin-left: 3px;
+    
+}
+
+.up-down-product{
+    display: flex;
+    text-align: center;
+   
+}
+
+.inf-product{
+    text-align: center;
+    height: 81px;
+}
+
+.grid-product{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-top: 20px;
+    width: 1143px;
+    gap: 20px 20px;
+   
+}
+
+.seafood{
+    border: 1px solid #51aa1b;
+    width: 269px;
+    height: 398px;
+    border-radius: 6px;
+  
+}
+
+/* --------------------------------- */
+
+
+
+
+
+
+.add-kitchen{
+    font-size: 26.6px;
+    color: #51aa1b;
+    font-weight: 600;
+}
+
+.tutorial{
+    color: #333;
+    font-size: 14px;
+    margin: 0px 0px 10px 0px;
+}
+.tutorial-one{
+    color: #333;
+    font-size: 14px;
+    margin: 0px 0px 10px 0px;
+}
+
+.tutorial-name{
+    margin-top: 30px;
+}
+
+.ask-and-answer{
+    width: 755px;
+    text-align: justify;
+    color: #333;
+    letter-spacing: 0.2px;
+    z-index: 3;
+}
+
+h4.why{
+    color: #292929;
+    font-size: 15px;
+}
+
+.add-kitchen-one{
+    font-size: 26.6px;
+    color: #51aa1b;
+    font-weight: 600;
+    padding-bottom: 20px;
+    width: 1143px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-top: 30px;
+   
+}
+
+.iphone-img{
+    width: 368px;
+    height: 750px;
+}
+
+.information-store{
+
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: auto  auto;
+    width: 1143px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ------------------------------- */
+/* 
+.iphone-img-pro{
+    width: 368px;
+    position: relative;
+    margin: 0 auto;
+}
+.iphone-img-pro::before {
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%) repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    right: -40%;
+    top: 0;
+    transform: skewX(-3deg);
+    width: 50%;
+    z-index: 2;
+}
+.iphone-img-pro:hover::before {
+    animation: 0.7s ease 0s normal none 1 running fixedAnim;
+    animation: 0.7s ease 0s normal none 1 running fixedAnim;
+    -webkit-animation: 0.7s ease 0s normal none 1 running fixedAnim;
+    -moz-animation: 0.7s ease 0s normal none 1 running fixedAnim;
+}
+@-webkit-keyframes fixedAnim {
+    0% {
+        right: 125%;
+    }
+    125% {
+        right: 0;
+    }
+}
+
+@-moz-keyframes fixedAnim {
+    0% {
+        right: 125%;
+    }
+    125% {
+        right: 0;
+    }
+}
+
+@keyframes fixedAnim {
+    0% {
+        right: 125%
+    }
+    125% {
+        right: 0;
+    }
+} */
+
+.name-item-bep {
+    color: #333;
+    width: 346px;
+    padding: 0px 10px;
+    margin: 10px 0px 5px;
+}
+
+.img-bep {
+    width: 364px;
+    height: 274px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  
+}
+
+
+.grid-item-kitchen {
+    width: 366px;
+    height: 402px;
+    transition: 0.3s ease-in-out;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.grid-item-kitchen:hover {
+    transform: scale(1); 
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+}
+
+.tutorial-kitchen{
+    width: 346px;
+    color: #333;
+    font-size: 14px;
+    padding: 0px 10px;
+}
+
+.grid-item-kitchen {
+    border: 1px solid #51aa1b;
+    border-radius: 8px;
+}
+
+.inf-tutorial{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+
+}
+
+
+
+/* responsive */
+
+
+
+
+
+/* Tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .background-img{
+        background-size: 100%;
+    }
+    .on-bg{
+        width: 745px;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+    .grid-product{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding-top: 20px;
+        width: 745px;
+        gap: 20px 20px;
+    }
+
+    hr{
+        width: 750px;
+    }
+
+    .seafood{
+        width: 234px;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sp{
+        width: 234px;
+        height: 234px;
+    }
+    h3{
+        width: 745px;
+    }
+
+    .name-item-bep {
+        color: #333;
+        width: 346px;
+        padding: 0px 10px;
+        margin: 10px 0px 5px;
+    }
+    
+    .img-bep {
+        width: 251px;
+        height: 189px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    
+    }
+    
+    .grid-item-kitchen {
+        width: 234px;
+        height: 304px;
+    }
+    
+    .tutorial-kitchen{
+        width: 225px;
+        color: #333;
+        font-size: 13px;
+        padding: 0px 10px;
+    }
+    
+    .grid-item-kitchen {
+        border: 1px solid #51aa1b;
+        border-radius: 8px;
+    }
+    
+    .inf-tutorial{
+        width: 745px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+    
+    }
+    .img-bep {
+        width: 234px;
+        height: 176px;
+    }
+
+    .name-item-bep{
+        width: 214px;
+    }
+    .product{
+        width: 745px;
+    }
+    .information-store{
+        width: 745px;
+    }
+    .ask-and-answer{
+        width: 492px;
+    }
+    .iphone-img-pro,
+    .iphone-img{
+        width: 236px;
+        height: 482px;
+    }
+    .add-kitchen-one{
+        width: 745px;
+    }
+    .button-on-background{
+        background: none;
+    }
+    
+}
+
+
+
+/* Mobile */
+@media only screen and (max-width: 46.1875em) {
+    
+}
+
